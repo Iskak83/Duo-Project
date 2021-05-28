@@ -99,43 +99,43 @@ export const LIST_OF_PIECES = [
     },
     {
         id: 9,
-        composer: 'Aaron Jay Myers',
-        title: 'For The World Is Hollow and I Have Touched The Sky',
-        instrumentation: 'Violin duo',
-        notes: '',
-        link: 'http://www.aaronjaymyers.com/',
-        premier_date: '02/28/2018',
-        premier_performers: 'SL, Alec Norkey'
+        composer: 'Kevin Joest',
+        title: 'Icarus Still Flew',
+        instrumentation: 'Violin & 5 string violin',
+        notes: 'Five-string violin, melodic',
+        link: 'https://www.kevinjoestmusic.com/',
+        premier_date: '02/25/2016',
+        premier_performers: 'SL, Sophia Bellino'
     },
     {
         id: 10,
-        composer: 'Aaron Jay Myers',
-        title: 'For The World Is Hollow and I Have Touched The Sky',
+        composer: 'David Wallace',
+        title: 'Life Spring',
         instrumentation: 'Violin duo',
-        notes: '',
-        link: 'http://www.aaronjaymyers.com/',
-        premier_date: '02/28/2018',
-        premier_performers: 'SL, Alec Norkey'
+        notes: 'Melodic, barriolage',
+        link: 'https://www.docwallacemusic.com/',
+        premier_date: 'n/a',
+        premier_performers: 'n/a'
     },
     {
         id: 11,
-        composer: 'Aaron Jay Myers',
-        title: 'For The World Is Hollow and I Have Touched The Sky',
+        composer: 'Jim Dalton',
+        title: 'Spreading Light',
         instrumentation: 'Violin duo',
-        notes: '',
-        link: 'http://www.aaronjaymyers.com/',
-        premier_date: '02/28/2018',
-        premier_performers: 'SL, Alec Norkey'
+        notes: 'Just Intonation',
+        link: 'https://www.newmusicusa.org/profile/jimdalton/#:~:text=James%20Dalton%20is%20a%20composer,Michael%20Newman%20and%20John%20Abercrombie.',
+        premier_date: '02/24/2015',
+        premier_performers: 'SL, Dillon Robb'
     },
     {
         id: 12,
-        composer: 'Aaron Jay Myers',
-        title: 'For The World Is Hollow and I Have Touched The Sky',
+        composer: 'Jim Dalton',
+        title: 'Mindful of All',
         instrumentation: 'Violin duo',
-        notes: '',
-        link: 'http://www.aaronjaymyers.com/',
-        premier_date: '02/28/2018',
-        premier_performers: 'SL, Alec Norkey'
+        notes: 'Just Intonation',
+        link: 'https://www.newmusicusa.org/profile/jimdalton/#:~:text=James%20Dalton%20is%20a%20composer,Michael%20Newman%20and%20John%20Abercrombie.',
+        premier_date: '02/25/2016',
+        premier_performers: 'SL, Dillon Robb'
     },
 ]
     

@@ -1,8 +1,6 @@
-import sharansImg from './SharanLeventhal007col.jpg'
 import './App.css';
 import {LIST_OF_PIECES as LIST, SUMMARY }from './data.js'
-
-
+import sharansImg from './SharanLeventhal007col.jpg'
 
 function App() {
   LIST.sort(function(a, b){
@@ -29,7 +27,7 @@ function App() {
         </section>
         <section>
           <ul className="composers-list">
-          <h4>List of peices by composers:</h4>
+          <h4>List of pieces by composers:</h4>
             {LIST.map(piece => {
                 return (
                         <li key={piece.id}>
@@ -37,10 +35,10 @@ function App() {
                             <p className="piece-title">{piece.title}</p>
                             {piece.link.length ? <a href={piece.link} target='_blank' rel="noreferrer">{piece.composer}</a> : <p className="piece_composer">{piece.composer}</p>}
                           </div>
-                          <p><span>Instrumentation:</span> {piece.instrumentation}</p>
-                          <p><span>Premier date</span>: {piece.premier_date}</p>
-                          <p><span>Description</span>: {piece.notes}</p>
-                          <p><span>Premier performers</span>: {piece.premier_performers}</p>
+                          <p className="piece-info"><span>Instrumentation:</span> {piece.instrumentation}</p>
+                          <p className="piece-info"><span>Premier date</span>: {piece.premier_date}</p>
+                          <p className="piece-info"><span>Description</span>: {piece.notes}</p>
+                          <p className="piece-info"><span>Premier performers</span>: {piece.premier_performers}</p>
                         </li>
                 )
               })
