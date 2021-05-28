@@ -1,0 +1,96 @@
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  font-size: 0.85rem;
+  color: rgb(4, 67, 240);
+}
+p{
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin-bottom: 10px;
+}
+span{
+  color: gray ;
+}
+.App-header {
+  background-color: #252c3a;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: rgb(217, 231, 209);
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section { 
+  margin: 20px;
+  display: inline-block;
+  width: 900px;
+  max-width: 90%;
+}
+.opening-summary{
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+img {
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px gray;
+  float: left;
+  width: 260px;
+  height: 400px;
+  margin: 10px 20px 20px;
+}
+.composers-list{
+  padding: 0;
+}
+.composers-list li{
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(146, 146, 146);
+}
+.piece_header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0mm;
+}
+.piece_header a{
+  margin-left: 20px;
+}
+footer{
+  height: 10vh;
+  background-color: rgb(227, 231, 231);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 660px) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  img {
+    width: 130px;
+    height: 200px;
+    /* max-width: 30vw;
+    max-height: 25vh; */
+   
+  }
+}
