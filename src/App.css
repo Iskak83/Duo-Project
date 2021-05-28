@@ -1,23 +1,22 @@
-
 a{
   text-decoration: none;
   cursor: pointer;
   display: block;
   font-size: 0.85rem;
-  color: rgb(4, 67, 240);
 }
 p{
-  margin: 0 0 10px;
+  margin: 0 0 5px;
   font-size: 0.85rem;
 }
 ul{
   list-style-type: none;
+  margin-top: 0;
 }
 li{
   margin-bottom: 10px;
 }
 span{
-  color: gray ;
+  color: rgb(110, 109, 109) ;
 }
 .App-header {
   background-color: #252c3a;
@@ -36,14 +35,14 @@ span{
 }
 
 section { 
-  margin: 20px;
+  margin-top: 30px;
   display: inline-block;
   width: 900px;
   max-width: 90%;
 }
 .opening-summary{
-  font-size: 1.2rem;
-  margin: 10px 0;
+  font-size: 1.15rem;
+  margin: 0 0 20px 0;
 }
 img {
   border-radius: 3px;
@@ -51,16 +50,22 @@ img {
   float: left;
   width: 260px;
   height: 400px;
-  margin: 10px 20px 20px;
+  margin: 0 20px 0 0;
 }
 .composers-list{
+  display: flex;
+  flex-direction: column;
   padding: 0;
+  width: 500px;
+  max-width: 100%
+
 }
 .composers-list li{
   display: inline-block;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 2px solid rgb(146, 146, 146);
+  margin-bottom: 20px;
 }
 .piece_header{
   width: 100%;
@@ -69,28 +74,40 @@ img {
   padding: 0px;
   margin: 0mm;
 }
-.piece_header a{
-  margin-left: 20px;
+.piece-title{
+  font-style: italic;
+  font-weight: 500;
 }
-footer{
+.piece_header a, .piece_composer{
+  margin-left: 20px;
+  color: blue;
+}
+
+footer {
   height: 10vh;
   background-color: rgb(227, 231, 231);
   display: flex;
+  justify-content: space-around;
+}
+
+footer div {
+  display: inherit;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
   font-size: 0.75rem;
+  width: 900px;
+  max-width: 90%;
 }
 
 @media (max-width: 660px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  h4{
+    margin: 0 0 20px;
+  }
   img {
     width: 130px;
-    height: 200px;
-    /* max-width: 30vw;
-    max-height: 25vh; */
-   
+    height: 200px; 
   }
 }
